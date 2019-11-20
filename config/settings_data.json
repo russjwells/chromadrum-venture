@@ -1,0 +1,487 @@
+{
+  "current": {
+    "color_header_bg": "#030303",
+    "color_header_links": "#fff",
+    "color_body_bg": "#f7f7f7",
+    "color_content_bg": "#fff",
+    "color_body_headings": "#030303",
+    "color_body_text": "#666",
+    "color_button_bg": "#006eff",
+    "color_button_text": "#fff",
+    "color_footer_bg": "#030303",
+    "color_footer_text": "#fff",
+    "color_hero_text": "#fff",
+    "color_hero_bg": "#006eff",
+    "type_accent_family": "unica_one_n4",
+    "type_accent_spacing": true,
+    "type_accent_transform": true,
+    "type_base_family": "karla_n4",
+    "type_base_size": "16px",
+    "type_nav_size": "14px",
+    "type_nav_spacing": true,
+    "type_nav_transform": true,
+    "product_images_padding": true,
+    "product_vendor_enable": false,
+    "share_image": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/chromadrum",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/instagram.com\/chromadrum",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCeKEUNZSYqFcuNUdsr1tIyg",
+    "social_vimeo_link": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "favicon": "shopify:\/\/shop_images\/Chroma_Drum_Color_Logo_bare.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/name_only_03e15c3a-2694-4391-b0c8-bf19c7cbe38c.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#006eff",
+    "checkout_button_color": "#006eff",
+    "checkout_error_color": "#e32c2b",
+    "checkout_banner_background_color": "#fff",
+    "checkout_call_to_action_color": "#006eff",
+    "checkout_use_header_image": false,
+    "color_newsletter_input": "#1a1a1a",
+    "sections": {
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "placeholder-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC09289_copy_3e55094b-27c8-4486-91bc-d7ce4c82e6ae.png",
+              "image_position": "center center",
+              "title": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections\/hipnotiq-collection"
+            }
+          },
+          "1572596997572": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC09047.jpg",
+              "image_position": "center center",
+              "title": "",
+              "button_label": "View all products",
+              "button_link": ""
+            }
+          },
+          "placeholder-1": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC09171.jpg",
+              "image_position": "center center",
+              "title": "",
+              "button_label": "View all products",
+              "button_link": ""
+            }
+          },
+          "1572049896633": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC08826.jpg",
+              "image_position": "center center",
+              "title": "",
+              "button_label": "View all products",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "placeholder-0",
+          "1572596997572",
+          "placeholder-1",
+          "1572049896633"
+        ],
+        "settings": {
+          "hero_home_height": "adapt",
+          "hero_home_auto": true,
+          "hero_home_auto_speed": 5
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "social": {
+            "type": "social",
+            "settings": {
+              "title": "Follow us",
+              "align": "center"
+            }
+          },
+          "1573516165099": {
+            "type": "newsletter",
+            "settings": {
+              "color_newsletter_input": "#1a1a1a",
+              "color_newsletter_input_text": "#fff",
+              "title": "Be tuned in",
+              "subheading": "<p>Stay tuned into our latest releases, sales, events, and more! &lt;3<\/p>"
+            }
+          },
+          "1573516209068": {
+            "type": "text",
+            "settings": {
+              "title": "Gratitude",
+              "text": "<p>We love you, we want you to grow into your highest, most powerful expression.&nbsp;<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "social",
+          "1573516165099",
+          "1573516209068"
+        ],
+        "settings": {
+          "show_payment_icons": true
+        }
+      },
+      "featured-collections": {
+        "type": "featured-collections",
+        "blocks": {
+          "featured-collections-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "diamond-collection"
+            }
+          },
+          "1572820742127": {
+            "type": "collection",
+            "settings": {
+              "collection": "gold"
+            }
+          },
+          "featured-collections-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "tesla-collection"
+            }
+          },
+          "1572588612278": {
+            "type": "collection",
+            "settings": {
+              "collection": "star-burst"
+            }
+          },
+          "1572588642171": {
+            "type": "collection",
+            "settings": {
+              "collection": "hipnotiq-collection"
+            }
+          },
+          "1572588662533": {
+            "type": "collection",
+            "settings": {
+              "collection": "maelstrom"
+            }
+          }
+        },
+        "block_order": [
+          "featured-collections-0",
+          "1572820742127",
+          "featured-collections-2",
+          "1572588612278",
+          "1572588642171",
+          "1572588662533"
+        ],
+        "settings": {
+          "stretch_collection_image": false
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Chroma_Drum_Color_Logo_bare.png",
+          "logo_max_width": "50",
+          "main_linklist": "main-menu",
+          "promo_bar_enable": false,
+          "promo_bar_text": "Welcome to the new home of Chroma Drum™",
+          "promo_bar_link": ""
+        }
+      },
+      "collection-filters": {
+        "type": "collection-filters",
+        "settings": {
+          "product_tags_enable": true,
+          "product_sorting_enable": true
+        }
+      },
+      "1572588873448": {
+        "type": "quotes",
+        "blocks": {
+          "1572588873448-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>What's there to NOT like? I am in LOVE with my drum. I now consider it one of my most prized possessions. That's saying a lot, because I do have a lot of things. This is one of my favorites. My first steel tongue drum ever and from start to finish it's been an amazing process. Michael was extremely helpful and very patient as I fired away question after question. I feel like I learned a lot and in the process, my friend and I learned a lot and we both bought drums the same weekend! It was a pleasurable experience, shipping was super fast and my drum was well packaged with care and love. Photos do not do this piece justice. Sure it looks stunning in the photos but in person she is a true beauty. I cannot thank you enough for giving me this incredible piece of artwork and introducing me to this whole new genre of meditation! 🙏💜<\/p>",
+              "author": "Shellini Spencer"
+            }
+          },
+          "1572588873448-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>I first met Mr. Chromadrum sitting upon a hilltop known as Meditation outlook overlooking the magic of Lightning in a Bottle Music Festival. Though the sounds of the bass from far down below echoed through the landscape, it was the beautiful resonance I heard from my first drum that caught my attention. On the spot he showed me how to play it and I purchased it immediately. One cannot describe the beauty that this drum can create. The workmanship and crafting ability seen in these drums is unlike any other that I have seen. Each drum has its unique personality and sound. A beautiful piece of artwork showing both style and sound.<\/p>",
+              "author": "Marcus Dowdican"
+            }
+          },
+          "1572589073284": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>I absolutely LOVE my custom drum. Michael put his heart and soul into crafting this gem. I knew I was guided to him for a reason. Michael was very responsive to all of my questions and concerns. He began work on my drum as soon as I placed the order...so, he was very efficient and his work is flawless. The drum sings beautifully! The drum was shipped in record time after placing my order. I can't thank you enough Michael. Metatron thanks you too:)<\/p>",
+              "author": "Ginger Roganti"
+            }
+          },
+          "1572589126015": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>I can't say enough about Michael and his drums. When I placed the order, he spoke with me via Facebook talking about scales and coloring, answering all of my questions. I placed the order and had it in a week. I play it every day, and find it difficult to stop! If you are in the market for a drum like this, choosing Chromadrum is an extremely wise choice!<\/p>",
+              "author": "Ben Glasglow"
+            }
+          },
+          "1572589162194": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>I first discovered steel tongue drums when I read an article a few weeks back. I was mesmerized and I immediately knew that I had to had one for my husband for his birthday. I did some research online, and when I saw an image of the ChromaDrums, I knew I found the one I was searching for. I emailed Mike a few questions, and he was quick to reply and was very helpful and informative. I placed my order a few days later and received the drum this weekend. The drum arrived very well-packed and Mike even wrote \"Happy Birthday\" on the insert card. His attention to detail and passion for what he creates are displayed in his beautiful work. I was so excited about the purchase, I caved and gave my husband his present 3 weeks early. He LOVES it, and didn't stop playing it the entire weekend. Already ready to purchase another.<\/p>",
+              "author": "Sarah"
+            }
+          }
+        },
+        "block_order": [
+          "1572588873448-0",
+          "1572588873448-1",
+          "1572589073284",
+          "1572589126015",
+          "1572589162194"
+        ],
+        "settings": {
+          "title": "Testimonials"
+        }
+      },
+      "1572589410042": {
+        "type": "video",
+        "settings": {
+          "button_label": "Lightning In A Bottle 2018",
+          "video_url": "https:\/\/www.youtube.com\/watch?v=iJDGkYVt23I",
+          "cover_image": "shopify:\/\/shop_images\/Screen_Shot_2019-10-31_at_11.27.51_PM.png",
+          "cover_image_position": "center center",
+          "cover_image_height": "tall",
+          "show_overlay": true,
+          "overlay_color": "#000000",
+          "overlay_opacity": 10
+        }
+      },
+      "1572590063265": {
+        "type": "featured-products",
+        "settings": {
+          "collection": "frontpage",
+          "rows": 2
+        }
+      },
+      "featured-products-subsection": {
+        "type": "featured-products-subsection",
+        "settings": {
+          "collection": "custom-order"
+        }
+      },
+      "1573759659241": {
+        "type": "featured-products",
+        "settings": {
+          "collection": "custom-order",
+          "rows": 2
+        }
+      }
+    },
+    "content_for_index": [
+      "1572590063265",
+      "1573759659241",
+      "featured-collections",
+      "1572588873448",
+      "1572589410042"
+    ]
+  },
+  "presets": {
+    "Snowboards": {
+      "checkout_accent_color": "#006eff",
+      "checkout_banner_background_color": "#fff",
+      "checkout_button_color": "#006eff",
+      "checkout_call_to_action_color": "#006eff",
+      "checkout_use_header_image": false,
+      "color_body_bg": "#f7f7f7",
+      "color_body_headings": "#030303",
+      "color_body_text": "#666",
+      "color_button_bg": "#006eff",
+      "color_button_text": "#fff",
+      "color_content_bg": "#fff",
+      "color_footer_bg": "#030303",
+      "color_footer_text": "#fff",
+      "color_header_bg": "#030303",
+      "color_header_links": "#fff",
+      "color_hero_bg": "#006eff",
+      "color_hero_text": "#fff",
+      "color_newsletter_input": "#1a1a1a",
+      "type_accent_family": "unica_one_n4",
+      "type_accent_spacing": true,
+      "type_accent_transform": true,
+      "type_base_family": "karla_n4",
+      "type_base_size": "16px",
+      "type_nav_size": "14px",
+      "type_nav_spacing": true,
+      "type_nav_transform": true,
+      "sections": {
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "placeholder-0": {
+              "type": "slide",
+              "settings": {}
+            },
+            "placeholder-1": {
+              "type": "slide",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "placeholder-0",
+            "placeholder-1"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "linklist": {
+              "type": "menu",
+              "settings": {}
+            },
+            "social": {
+              "type": "social",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "linklist",
+            "social"
+          ],
+          "settings": {}
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collections-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-2": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "featured-collections-0",
+            "featured-collections-1",
+            "featured-collections-2"
+          ],
+          "settings": {}
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "image-content": {
+          "type": "image-content",
+          "blocks": {
+            "image-content-0": {
+              "type": "image_block",
+              "settings": {}
+            },
+            "image-content-1": {
+              "type": "text_block",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "image-content-0",
+            "image-content-1"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "featured-collections",
+        "featured-products",
+        "image-content"
+      ]
+    },
+    "Outdoors": {
+      "checkout_accent_color": "#f4743c",
+      "checkout_banner_background_color": "#fff",
+      "checkout_button_color": "#f4743c",
+      "checkout_call_to_action_color": "#f4743c",
+      "checkout_use_header_image": false,
+      "color_body_bg": "#f7f7f7",
+      "color_body_headings": "#1a1a1a",
+      "color_body_text": "#666",
+      "color_button_bg": "#c04f1d",
+      "color_button_text": "#fff",
+      "color_content_bg": "#ffffff",
+      "color_footer_bg": "#213236",
+      "color_footer_text": "#fff",
+      "color_header_bg": "#213236",
+      "color_header_links": "#ffffff",
+      "color_hero_bg": "#f4743c",
+      "color_hero_text": "#fff",
+      "color_newsletter_input": "#425154",
+      "type_accent_family": "lora_n7",
+      "type_accent_spacing": false,
+      "type_accent_transform": false,
+      "type_base_family": "roboto_n4",
+      "type_base_size": "14px",
+      "type_nav_size": "15px",
+      "type_nav_spacing": false,
+      "type_nav_transform": false
+    },
+    "Boxing": {
+      "checkout_accent_color": "#d8232f",
+      "checkout_banner_background_color": "#fff",
+      "checkout_button_color": "#d8232f",
+      "checkout_call_to_action_color": "#d8232f",
+      "checkout_use_header_image": false,
+      "color_body_bg": "#f0f0f0",
+      "color_body_headings": "#222222",
+      "color_body_text": "#666",
+      "color_button_bg": "#d8232f",
+      "color_button_text": "#fff",
+      "color_content_bg": "#ffffff",
+      "color_footer_bg": "#222222",
+      "color_footer_text": "#ffffff",
+      "color_header_bg": "#222222",
+      "color_header_links": "#ffffff",
+      "color_hero_bg": "#d8232f",
+      "color_hero_text": "#fff",
+      "color_newsletter_input": "#303030",
+      "type_accent_family": "open_sans_condensed_n7",
+      "type_accent_spacing": false,
+      "type_accent_transform": true,
+      "type_base_family": "source_sans_pro_n4",
+      "type_base_size": "17px",
+      "type_nav_size": "14px",
+      "type_nav_spacing": true,
+      "type_nav_transform": true
+    }
+  }
+}

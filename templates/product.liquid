@@ -1,0 +1,55 @@
+{% comment %}
+  The contents of the product.liquid template can be found in /sections/product-template.liquid
+{% endcomment %}
+
+{% section 'product-template' %}
+<p class="affirm-as-low-as" data-page-type="product" data-amount="50000"></p>
+
+{% section 'product-recommendations' %}
+<p class="affirm-as-low-as" data-page-type="product" data-amount="50000"></p>
+{% if collection %}
+  <div class="full-width full-width--return-link">
+    <a href="{{ collection.url }}" class="h1 return-link">
+      {% include 'icon-arrow-thin-left' %}
+      {{ 'products.product.collection_return' | t: collection: collection.title }}
+    </a>
+  </div>
+{% endif %}
+
+<script>
+  var selectCallback = function(product, selector) {
+     
+    //Affirm Promos: Monthly Payment Messaging, dynamic pricing embed code
+    //
+    //NOTE: This Affirm embed code is only needed if you are using product variants.
+    //'selectCallback' might not be in your product.liquid template if product variants are not used or supported.
+    //If you are using product variants in your shop, use the following code to dynamically update your Monthly Payment Messaging when the customer selects a different product variant.
+    
+    <p class="affirm-as-low-as" data-page-type="product" data-amount="50000"></p>;
+    affirm.ui.refresh();
+     
+  };
+ 
+</script>
+
+
+<script>
+  var selectCallback = function(product, selector) {  
+    <p class="affirm-as-low-as" data-page-type="product" data-amount="50000"></p>;
+    affirm.ui.refresh();
+      
+  };
+  
+</script>
+
+
+<script>
+  // Override default values of shop.strings for each template.
+  // Alternate product templates can change values of
+  // add to cart button, sold out, and unavailable states here.
+  window.productStrings = {
+    addToCart: {{ 'products.product.add_to_cart' | t | json }},
+    soldOut: {{ 'products.product.sold_out' | t | json }},
+    unavailable: {{ 'products.product.unavailable' | t | json }}
+  }
+</script>
