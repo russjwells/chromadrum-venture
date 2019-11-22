@@ -298,11 +298,21 @@
           "collection": "custom-order",
           "rows": 2
         }
+      },
+      "1574448422765": {
+        "type": "rich-text",
+        "settings": {
+          "home_page_full_width": true,
+          "section_title": "BLACK FRIDAY CYBER MONDAY",
+          "text": "<p>Take $80 off all custom orders until Janruary 2020<br><br>Check out our payment options starting at $42\/ month<\/p>",
+          "text_size": "large"
+        }
       }
     },
     "content_for_index": [
-      "1572590063265",
+      "1574448422765",
       "1573759659241",
+      "1572590063265",
       "featured-collections",
       "1572588873448",
       "1572589410042"
