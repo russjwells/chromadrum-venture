@@ -111,6 +111,9 @@
                 </s>
               </li>
             {% endif %}
+            
+                
+              
             {%- if variants_with_unit_price.size > 0 -%}
               <li>
                 {% include 'product-unit-price', product_variant: current_variant %}
@@ -137,6 +140,7 @@
               </li>
             {% endif %}
           </ul>
+          
 
           {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
             <div class="product-single__policies rte">
@@ -148,11 +152,11 @@
               {%- endif -%}
             </div>
           {%- endif -%}
-
+          <p class="affirm-as-low-as" data-page-type="product" data-amount="50000"></p>
         </div>
-
+          
         <hr>
-
+        
         {% capture "form_class" %}product-form{% if section.settings.enable_payment_button %} product-form--payment-button{% endif %}{%- endcapture %}
 
         {% capture "form_id" %}AddToCartForm-{{ section.id }}{%- endcapture %}
@@ -185,12 +189,10 @@
               </option>
             {% endfor %}
           </select>
-          
           <div class="product-form__item product-form__item--quantity">
             <label for="Quantity">{{ 'products.product.quantity' | t }}</label>
-            <input type="number" id="Quantity" name="quantity" value="1" min="1" class="product-form__input product-form__quantity">
+            <input type="number" id="Quantity" name="quantity" value="1" min="1" class="product-form__input product-form__quantity"/>
           </div>
-          <p class="affirm-as-low-as" data-page-type="product" data-amount="{{variant.price}}"></p>
           <div class="product-form__item product-form__item--submit">
             <button type="submit"
               name="add"
@@ -211,13 +213,13 @@
           </div>
 
         {% endform %}
-		<p class="affirm-as-low-as" data-page-type="product" data-amount="{{variant.price}}"></p>
+		    
         <hr>
 
         <div class="rte product-single__description" itemprop="description">
           {{ product.description }}
         </div>
-
+        <!-- <p class="affirm-as-low-as" data-page-type="product" data-amount="{{variant.price}}"></p>-->
         {% if section.settings.social_sharing_products %}
           <hr>
           {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}
